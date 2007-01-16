@@ -1,0 +1,7 @@
+<axis-java2wsdl 
+         output="${axisAutoSourceDir}\${WSDLFILE}"
+         location="http://localhost:8080/axis/services/licence"
+         namespace="${NAMESPACE}"
+         classname="demo.outline.OutlineComponent">
+   <mapping namespace="com.idega.licence" package="com.idega.licence"/>
+</axis-java2wsdl>

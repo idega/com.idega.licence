@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <extend>${base.project.dir}/base-dependencies.xml</extend>
+  <name>idegaWeb Setup</name>
+  <artifactId>com.idega.licence</artifactId>
+  <!--currentVersion>1.0</currentVersion-->
+  <currentVersion>1.0.1-SNAPSHOT</currentVersion>
+
+  <inceptionYear>2006</inceptionYear>
+  <shortDescription>Module to handle licencing for idegaWeb</shortDescription>
+  <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
+  <versions>
+    <version>
+      <id>0.5.0</id>
+      <name>0.5.0</name>
+      <tag>SETUP_0_5_0</tag>
+    </version>
+    <version>
+      <id>0.6.0</id>
+      <name>0.6.0</name>
+      <tag>SETUP_0_6_0</tag>
+    </version>
+    <version>
+      <id>0.6.1</id>
+      <name>0.6.1</name>
+      <tag>SETUP_0_6_1</tag>
+    </version>
+    <version>
+      <id>0.6.2</id>
+      <name>0.6.2</name>
+      <tag>SETUP_0_6_2</tag>
+    </version>
+    <version>
+      <id>1.0</id>
+      <name>1.0</name>
+      <tag>SETUP_1_0</tag>
+    </version>
+  </versions>
+  <branches/>
+  <developers>
+    <developer>
+      <id>tryggvil</id>
+      <name>Tryggvi Larusson</name>
+      <email>tryggvi@idega.is</email>
+      <organization>idega software</organization>
+      <roles/>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.core</artifactId>
+      <!--version>3.0.6</version-->
+      <version>SNAPSHOT</version>
+
+      <type>jar</type>
+      <url>http://www.idega.com/</url>
+      <properties>
+        <eclipse.dependency>true</eclipse.dependency>
+      </properties>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>org.apache.axis</artifactId>
+      <!--version>1.3</version-->
+      <version>SNAPSHOT</version>
+
+      <type>jar</type>
+      <url>http://www.idega.com/</url>
+      <properties>
+        <eclipse.dependency>true</eclipse.dependency>
+      </properties>
+    </dependency>
+   
+    <!--copied from org.apache.axis bundle -->
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <url>http://ws.apache.org/axis</url>
+    </dependency>
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis-schema</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <url>http://ws.apache.org/axis</url>
+    </dependency>
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis-ant</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <url>http://ws.apache.org/axis/</url>
+    </dependency>
+    <dependency>
+      <groupId>commons-discovery</groupId>
+      <artifactId>commons-discovery</artifactId>
+      <version>0.2</version>
+      <type>jar</type>
+      <url>http://jakarta.apache.org/commons/discovery/</url>
+    </dependency>
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis-jaxrpc</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <url>http://jax-rpc.dev.java.net/</url>
+    </dependency>
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis-wsdl4j</artifactId>
+      <version>1.5.1</version>
+      <type>jar</type>
+      <url>http://sourceforge.net/projects/wsdl4j/</url>
+    </dependency>
+    <dependency>
+      <groupId>axis</groupId>
+      <artifactId>axis-saaj</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <url>http://saaj.dev.java.net/</url>
+    </dependency>
+    
+    <!-- log4j already included in core -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.8</version>
+      <type>jar</type>
+      <url>http://logging.apache.org/log4j/</url>
+
+
+    </dependency>
+    
+    <!-- commons logging already included in core -->
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.0.4</version>
+      <type>jar</type>
+      <url>http://jakarta.apache.org/commons/logging/</url>
+    </dependency>
+    <!-- already included in core -->
+
+    
+  </dependencies>
+</project>
